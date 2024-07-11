@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Tempo</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gostaria de saber o tempo para praticar seu esporte favorito?</h1>
+    <p>Preencha os campos abaixo para saber qual é o tempo:</p>
+    <form id="weatherForm">
+        <input type="text" id="state" placeholder="Digite seu estado" required>
+        <br><br>
+        <input type="text" id="city" placeholder="Digite sua cidade" required>
+        <br><br>
+        <button type="submit" id="submitBtn" disabled>Consultar o Tempo</button>
+    </form>
+    <div id="weatherInfo"></div>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
